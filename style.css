@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.pimg1,.pimg2{
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*-----------------Background images---------------*/
+.pimg1{
+    background-image: url(/Images/dan-gold-4HG3Ca3EzWw-unsplash.jpg);
+    min-height: 400px;
+    height: 100vh;
+}
+
+.pimg2{
+    background-image: url(/Images/douglas-sheppard-9rYfG8sWRVo-unsplash.jpg);
+    min-height: 400px;
+}
+/*-----------------Background images---------------*/
+/*-----------Image with text--------------------------*/
+
+
+.ptext1{
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+.ptext1 h1{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.ptext1 p{
+    font-size: 22px;
+}
+
+
+
+.border1{
+    background-color: #c09813;
+    color: #363333;
+    padding: 70px;
+    height: 80vh;
+    margin-left: 90px;
+    
+}
+
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+/*-----------Image with text--------------------------*/
+
+/*-----------------Random H1 text-------------------*/
+.color{
+    padding: 5%;
+    background-color: #282e34;
+    color: #ffffff;
+    height: 10vh;
+}
+/*-----------------Random H1 text-------------------*/
+/*--------------Pre-set for SECTIONS--------------*/
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    height: 90vh;
+    
+}
+
+/*--------------Pre-set for SECTIONS--------------*/
+
+/*---------------------Section1--------------*/
+.section1{
+    color: #ddd;
+    display: flex;
+    background-color: #282e34;
+}
+
+.section-container1{
+    width: 60%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+    font-size: 50px;
+}
+
+ul{
+    line-height: 45px;
+    list-style: none;
+    
+    text-align: left;
+}
+li{
+    
+    font-size: 40px;
+    top: 10%;
+}
+/*--------------------------*/
+.aside{
+    display: flex;
+    width: 40%;
+}
+.aside h1 {
+    padding-top: 30%;
+}
+.aside-container1{
+
+}
+
+
+/*---------------------Section1--------------*/
+
+/*---------------------Section2--------------*/
+
+.section2{
+    background-color: #104880;
+    display: flex;
+}
+.section-container2{
+    text-align: left;
+}
+
+
+/*---------------------Section2--------------*/
+/*-----------Footer--------------------------------*/
+footer{
+    text-align: center;
+    height: 40vh;
+}
+/*-----------Footer--------------------------------*/
+/*-----------Media --------------------------------*/
+@media(max-width: 568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
+/*-----------Media --------------------------------*/
